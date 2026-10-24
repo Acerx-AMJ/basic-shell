@@ -80,7 +80,7 @@ bool comm::version(Catcher& catcher, std::vector<Token>& tokens, size_t& i, fs::
 
 bool comm::info(Catcher& catcher, std::vector<Token>& tokens, size_t& i, fs::path& cwd)
 {
-   printf("\n\033[38;2;0;0;255mBasic Shell created by chalcinxx.\n");
+   printf("\n\033[38;2;0;0;255mBasic Shell created by Daniel Vishnevsky.\n");
    printf("Version: %s\n", version::string);
    printf("Type 'help' for commands.\033[0m\n");
    ++i;
